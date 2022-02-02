@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  background-color: #2e3a46;
+}
+
+header img {
+  width: 40px;
+  margin: 1em;
+}
+
+footer {
+  height: 50px;
+  color: white;
+  padding: 1em;
+}
