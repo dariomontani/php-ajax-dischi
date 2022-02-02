@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
 header,
 footer {
   background-color: #2e3a46;
@@ -12,6 +17,34 @@ footer {
 header img {
   width: 40px;
   margin: 1em;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #1e2d3b;
+}
+
+main .card {
+  background-color: #2e3a46;
+  width: 200px;
+  height: 350px;
+  margin: 2em;
+  text-align: center;
+}
+
+main .card img {
+  width: 100%;
+}
+
+main .card h3 {
+  color: white;
+  margin: 1em 0;
+}
+
+main .card h4 {
+  color: gray;
 }
 
 footer {
