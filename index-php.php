@@ -23,8 +23,6 @@ Attraverso l’utilizzo di axios: al caricamento della pagina axios chiederà, a
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
     <!-- css -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- vue -->
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -32,15 +30,12 @@ Attraverso l’utilizzo di axios: al caricamento della pagina axios chiederà, a
     <?php include_once __DIR__ . '/partials/header.php' ?>
 
     <!-- cards -->
-    <main id="app">
+    <main>
         <?php include_once __DIR__ . '/partials/card.php' ?>
     </main>
 
     <!-- footer -->
     <?php include_once __DIR__ . '/partials/footer.php' ?>
 
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
-    <script src="js/script.js"></script>
 </body>
 </html>

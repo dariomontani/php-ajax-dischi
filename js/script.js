@@ -2,13 +2,13 @@ const App = new Vue(
   {
     el: '#app',
     data: {
+      cards: []
     },
     created() {
-      axios.get('http://localhost:8888/Boolean/PHP/php-ajax-dischi/server/controller-api.php').then((result) => {
+      axios.get('http://localhost/php-ajax-dischi/server/controller-api.php').then((result) => {
         console.log(result);
-      }).catch((err) => {
-        console.log(err);
-      });
-    },
+        this.cards = result.data;
+      }).catch((error) => { console.log(error); });
+    }
   }
 );
