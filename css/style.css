@@ -24,13 +24,15 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
   background-color: #1e2d3b;
+  padding: 5em;
 }
 
 main .card {
   background-color: #2e3a46;
   width: 200px;
   height: 350px;
-  margin: 2em;
+  margin: 1.5em;
+  padding: 1em;
   text-align: center;
 }
 
@@ -40,6 +42,7 @@ main .card img {
 
 main .card h3 {
   color: white;
+  text-transform: uppercase;
   margin: 1em 0;
 }
 
